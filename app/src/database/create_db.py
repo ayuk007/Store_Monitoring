@@ -1,4 +1,4 @@
-from app.src.schemas import StoreStatus, StoreTimezone, BusinessHours, Base, Report, get_engine_session
+from app.src.database.schemas import StoreStatus, StoreTimezone, BusinessHours, Base, Report, get_engine_session
 
 engine, Session = get_engine_session()
 session = Session()

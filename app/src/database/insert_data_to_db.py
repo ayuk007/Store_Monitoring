@@ -1,6 +1,6 @@
 import pandas as pd
 from tqdm import tqdm
-from app.src.schemas import StoreStatus, StoreTimezone, BusinessHours, Base, Report, get_engine_session
+from app.src.database.schemas import StoreStatus, StoreTimezone, BusinessHours, Base, Report, get_engine_session
 
 status_data = pd.read_csv(r"path_to_store_status_csv")
 hours_data = pd.read_csv(r"path_to_menu_hours_csv")
