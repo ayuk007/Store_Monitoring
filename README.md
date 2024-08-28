@@ -5,6 +5,12 @@
 - SQLAlchemy (ORM)
 
 ## Documentation
+
+### Architecture
+- Used the Service oriented design pattern to keep the logics separated and make it more suitable forr further updates.
+
+- In database side, used the Factory pattern, so that the redudancy should be reduced.
+
 ### Assumptions Taken
 - If the business hours doesn't exist in the database, then it'll be open for 24*7 i.e., (00:00:00 AM - 23:59:59 PM), as mentioned in the assessment.
 
